@@ -1,0 +1,91 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    margin: 10px;
+}
+
+.card-img-top {
+    max-width: 380px;
+}
+
+.card-body {
+    width: 300px;
+}
+
+.container-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.price {
+    font-family: 'Roboto', sans-serif;
+    color: #0987eb;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.heading {
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#yearMin, #yearMax, #priceMin, #priceMax {
+    width: 80px;
+    padding: 5px 8px;
+    margin: 0px 5px;
+}
+
+#priceMin, #priceMax {
+    width: 100px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.little-text {
+    font-size: 12px;
+}
+
+.used {
+    color: #1b1f23;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+}
